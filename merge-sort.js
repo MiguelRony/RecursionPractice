@@ -1,6 +1,6 @@
 
 
-function mergeSort(arr){
+export const mergeSort = (arr) => {
     if(arr.length > 1){
         const leftSide = arr.slice(0, Math.floor(arr.length/2));
         const rightSide = arr.slice(Math.floor(arr.length/2));
